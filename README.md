@@ -75,3 +75,8 @@ The AMSGrad variant proposed in the 2018 International Conference on Learning Re
 Model performance seemed greater with a higher number of epochs, especially with the callback functions aiding in the prevention of overtraining. Likewise, larger batch sizes also seemed to have a positive impact on model performance as the first 2 models had batch sizes of 50 and the last a batch size of 250.
 
 There are limitations to the conclusions we can draw from this data, however. Given that models often took upwards of 5+ hours to train, many parameters were changed simultaneously in an attempt to diminish the time needed to train a successful model. This makes it difficult to discern the individual effects of each parameter change. This was attempted to be mitigated by training several different versions in parallel on the same machine, however, this ultimately led to slowed system performance, hardware overheating and eventually the application crashing before it was fully trained. For future iterations and study, it is suggested to break these parameters out into single changes to examine their individual effects. This would be made much more possible by running the models on a high-powered GPU.
+
+### Contributors
+Alexander Moulton - https://github.com/moul-10
+Daniel Mello - https://github.com/shouldworkright
+Ashley Famularo - https://github.com/afamularo99
